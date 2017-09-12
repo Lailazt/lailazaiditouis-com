@@ -18,7 +18,7 @@
 }
 
 .text.centered {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 45vh;
   right: 0px;
@@ -41,6 +41,12 @@
   position: fixed;
   right: 0px;
   bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .text.centered {
+    top: 30vh;
+  }
 }
 
 @media (max-width: 479px) {
